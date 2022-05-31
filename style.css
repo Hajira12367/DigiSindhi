@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600&display=swap');
+
+div
+{
+box-sizing:border-box;
+}
+.container {
+    width: 100%;
+	height:10px;
+    margin: 2px auto;
+    background-color:
+} 
+
+.Container {
+    width: 100%;
+	height:60px;
+    margin: 0 auto;
+    background-color: none;
+}
+
+.body
+{
+      width:40%;
+	margin: 5px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.timeline {
+	overflow:hidden;
+	position: relative;
+	margin: 10px auto;
+	padding: 10px 0;
+	width: 100%;
+	box-sizing: border-box;
+	
+	}
+	.timeline:before
+	{
+		content: '';
+		position: absolute;
+		left: 50%;
+		width: 2px;
+		height: 100%;
+		background: black;
+	}
+.timeline ul
+ {
+	
+	margin: 0;
+	padding: 0;
+}
+.timeline ul li
+{
+	list-style:  none;
+	position:relative;
+	width: 50%;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+.timeline ul li:nth-child(odd)
+{
+	
+	float:left;
+	text-align: right;
+	clear: both;
+}    
+.timeline ul li:nth-child(even)
+{
+	
+	float:right;
+	text-align: left;
+	 clear: both;
+}  
+.content 
+{
+	padding-bottom: 20px;
+}
+.timeline ul li:nth-child(odd):before 
+{
+	content: '';
+	position: absolute;
+	top: 24px;
+	right: -6px;
+	width: 10px;
+	height: 10px;
+	background: black;
+	border-radius: 50%;
+	box-shadow: red;
+	height:2px;
+	width:3rem;
+	top:5em;
+	right:0;
+}
+.timeline ul li:nth-child(even):before 
+{
+	content: '';
+	position: absolute;
+	top: 24px;
+	left: -4px;
+	width: 10px;
+	height: 10px;
+	background: black;
+	border-radius: 50%;
+	box-shadow: red;
+	height:2px;
+	width:3rem;
+	top:5em;
+	left:0;
+}
+.timeline ul li h3
+{  margin: 0;
+padding: 0;
+font-weight: 600;
+color: rgba(233,33,99,1);
+	
+}
+.timeline ul li p
+{
+	 margin: 10px 0 0;
+	 padding: 0;
+}
+.timeline ul li .time  h4
+{
+	margin: 0;
+	padding:0;
+	font-size: 14px;
+}
+.timeline ul li:nth-child(odd) .time 
+{
+	position: absolute;
+	top: 12px;
+	right: -165px;
+	margin: 0;
+	padding: 0;
+	background: rgba(233,33,99,1);
+	color; fff;
+	border-radius: 18px;
+	box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+.timeline ul li:nth-child(even) .time 
+{
+	position: absolute;
+	top: 12px;
+	left: -165px;
+	margin: 0;
+	padding: 0;
+	background: rgba(233,33,99,1);
+	color; fff;
+	border-radius: 18px;
+	box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+
+.timeline ul li:nth-child(even) .content :before
+{
+	display:block;
+	content:" ";
+	height:2px;
+	width:0rem;
+	background-color:black;
+	position:absolute;
+	top:0em;
+	left:0;
+	}
+.timeline ul li:nth-child(odd) .content:before
+{
+	display:block;
+	content:" ";
+	height:2px;
+	width:0rem;
+	background-color:black;
+	position:absolute;
+	top:0em;
+	right:0;
+	}
+	
+	
+	
+/*.header {
+	overflow:hidden;
+	height: 200px;
+  margin-left:10px;
+  padding:0px;
+ backgound-color:none;
+  
+  background: url(download(1));
+  
+  
+}*/
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  
+}
+
+.topnav a {
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 2px;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+ 
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 50px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+  }
+}
+.para {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+.header {
+  background-color: white;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  height:110px;  
+}
+
+hr.new4 {
+  border: 1px solid green;
+  align:center;
+  
+  margin:8px;
+}
